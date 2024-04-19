@@ -14,7 +14,7 @@ function App() {
       <ParticlesComponent id="particles" />
       <hr className="w-[90vw] h-2 mx-auto" style={{ marginTop: "4%" }} />
       <div className="grid grid-cols-12  ">
-        <section className="col-span-9">
+        <section className="col-span-10">
           {step === 1 && <Home />}
           {step === 2 && <About />}
         </section>
